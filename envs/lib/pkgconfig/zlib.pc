@@ -1,0 +1,13 @@
+prefix=/home/rihaan/Downloads/social_web/social_clone/ai_blue_book/envs
+exec_prefix=/home/rihaan/Downloads/social_web/social_clone/ai_blue_book/envs
+libdir=/home/rihaan/Downloads/social_web/social_clone/ai_blue_book/envs/lib
+sharedlibdir=/home/rihaan/Downloads/social_web/social_clone/ai_blue_book/envs/lib
+includedir=/home/rihaan/Downloads/social_web/social_clone/ai_blue_book/envs/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.12
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
